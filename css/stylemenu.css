@@ -36,3 +36,13 @@ body{
     background: coral;
     height: 50px;
 }
+.tab-content ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ulchild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
