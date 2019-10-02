@@ -1,3 +1,13 @@
-.tab-content #requirement li{
+.tab-content #requirement li {
     display: list-item;
+}
+
+.tab-content .ulparent {
+    margin-left: 3em;
+    font-size: 1.1em;
+}
+
+.tab-content .ulchild {
+    margin-left: 1.5em;
+    font-size: 1.1em;
 }
