@@ -30,3 +30,9 @@
     justify-content: space-around;
     flex-direction: row-reverse;
 }
+.fab{
+    margin-left: 0.5em;
+}
+.add-form{
+    color: #007aff;
+}
