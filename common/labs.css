@@ -30,9 +30,78 @@
     justify-content: space-around;
     flex-direction: row-reverse;
 }
-.fab{
+
+.fab {
     margin-left: 0.5em;
 }
-.add-form{
+
+.add-form {
     color: #007aff;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id {
+    margin-right: 4em;
+}
+
+.name {
+    margin-right: 2.35em;
+}
+
+.credit {
+    margin-right: 1.25em;
+}
+
+.teacher {
+    margin-right: 1em;
+}
+
+.quantily {
+    margin-right: 0.7em;
+}
+
+.classroom {
+    margin-right: 0.1em;
+}
+
+.subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.content-form {
+    width: 50%;
+    border: 2px solid #6c757d;
 }
