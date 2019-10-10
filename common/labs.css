@@ -109,3 +109,16 @@ input[type=submit] {
 .tab-content #requirementweek2 li {
     display: list-item;
 }
+.pro{
+    margin-left: 4em;
+    font-size: 1.5em;
+}
+.row{
+    margin-top: 4em;
+}
+.content_footer{
+    font-size: 0.7em;
+}
+.container-fluid .f_size{
+    font-size: 0.7em;
+}
