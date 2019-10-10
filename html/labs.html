@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../fonts/beyond_the_mountains-webfont.css">
     <link rel="stylesheet" href="../common/labs.css">
     <link rel="stylesheet" href="../lib/lib/css/all.min.css">
+    <link rel="stylesheet" href="../common/style-form-dk.css">
 </head>
 <body>
 <header>
@@ -317,6 +318,10 @@
                             <a class="nav-link active" data-toggle="tab"
                                href="#requirementweek2">Requirement</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab"
+                               href="#userscenarioweek2">User scenario</a>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab"
@@ -331,8 +336,20 @@
                     <div class="tab-content">
                         <div id="requirementweek2" class="container tab-pane fade active show">
                             <div class="bound">
-
+                                <ul class="ulparent">
+                                    <li>(1) Tạo ra một user scenario.</li>
+                                    <li>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
+                                        Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
+                                        ứng cho thiết kế này.</li>
+                                    <li>Upload lên Azure / github: trong file html có chèn hình ảnh của
+                                        user scenario ở (1) và đường dẫn của file thiết kế ở (2).</li>
+                                </ul>
                             </div>
+                        </div>
+                        <div id="userscenarioweek2" class="container tab-pane fade">
+                            <div class="bound">
+
+                                <img src="../images/user.PNG" height="573" width="818"/></div>
                         </div>
 
                         <div id="designweek2" class="container tab-pane fade">
@@ -342,7 +359,53 @@
                         </div>
                         <div id="implementweek2" class="container tab-pane fade">
                             <div class="bound">
-
+                                <form class="form_dangki">
+                                    <div class="container_form_dk">
+                                        <div class="contai btn">
+                                            <div class="bt button">
+                                                <span class="sp">Đăng kí</span>
+                                                <button class="bt_1 _3j9-lD _2PuNkT">Đăng nhập</button>
+                                            </div>
+                                            <div class="content">
+                                                <div class="content_1">
+                                                    <div class="form_child">
+                                                        <div class="form_child_1">
+                                                            <input class="ip-1" type="text" placeholder="Số điện thoại" value="">
+                                                            <button class="btun" disabled="">Gửi Mã xác minh</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form_child"><input  type="text" placeholder="Mã xác minh"
+                                                                                    value="">
+                                                    </div>
+                                                    <div class="form_child"><input  type="text" placeholder="Tên đăng nhập"
+                                                                                    value="">
+                                                    </div>
+                                                    <div class="form_child"><input  type="password" placeholder="Mật khẩu"
+                                                                                    value="">
+                                                    </div>
+                                                    <div class="form_child"><input  type="password"
+                                                                                    placeholder="Xác nhận mật khẩu"
+                                                                                    value=""></div>
+                                                    <div class="form_child">
+                                                        <div class="fm_1">
+                                                            <input  type="text" placeholder="Mã hiển thị ở bên phải"
+                                                                    value="">
+                                                            <input class="cap" type="text" placeholder="Mã captcha">
+                                                        </div>
+                                                    </div>
+                                                    <div class="_2iuGmV">
+                                                        <input type="checkbox">
+                                                        <span>Bạn đã đồng ý về </span><span>Điều khoản dịch vụ</span>
+                                                        &amp; <span class="_1hLuTc">Chính sách bảo mật</span></div>
+                                                </div>
+                                                <div class="cntent_2">
+                                                    <button class="bt_1 bt_tl ">Trở Lại</button>
+                                                    <button class="bt_1 bt_dk ">Đăng ký</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>

@@ -49,3 +49,6 @@ input[type=submit] {
     display: flex;
     justify-content: center;
 }
+.content-form{
+    padding: 3em;
+}

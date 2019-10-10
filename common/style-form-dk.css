@@ -1,0 +1,89 @@
+
+.form_dangki {
+    display: flex;
+    justify-content: center;
+}
+
+.container_form_dk {
+    padding: auto;
+    background: #dcf9e7;
+    padding: 3em;
+    margin-top: 2em;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bt {
+    justify-content: space-between;
+    display: flex;
+}
+
+.form_child .ip-1 {
+    width: 68%;
+!important;
+}
+
+.cntent_2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2em;
+}
+
+.fm_1 {
+    display: flex;
+}
+
+.form_child .cap {
+    width: 30%;
+    font-size: 0.7em;
+}
+
+.form_child .btun {
+    padding: 0.8em;
+}
+
+.bt .sp {
+    font-size: 1.5em;
+}
+
+.bt {
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.bt .bt_1 {
+    border: none;
+    background-color: #dcf9e7;
+    color: #dc4e09;
+}
+
+.cntent_2 .bt_dk {
+    margin-left: 4em;
+    padding: 0.5em;
+    background-color: #f77200;
+    color: white
+}
+
+.cntent_2 .bt_tl {
+    border: none;
+    background-color: #dcf9e7;
+}
