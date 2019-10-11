@@ -44,7 +44,7 @@ profile-list .title {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    color: #9da0a7;
+    color: black;
 }
 
 .clearfix {
@@ -67,6 +67,12 @@ profile-list .title {
 .mag-4 {
     margin-left: 3.8em;
 }
-.row{
-    background-color: #4CAF50;
+
+.mag-5 {
+    margin-left: 1.5em;
+}
+
+.col-sm-7 {
+    background-color: #A6E0FF;
+    padding: 4%;
 }
