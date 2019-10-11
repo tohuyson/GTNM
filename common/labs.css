@@ -141,3 +141,15 @@ footer{
     margin-top: 0;
     margin-bottom: 0;
 }
+.bton{
+    border: 1px solid;
+    padding: 10px;
+    background: #e89f19;
+}
+.dow{
+    display: flex;
+    justify-content: center;
+}
+.content-form, .bound,.design_giay{
+    margin-top: 3em;
+}

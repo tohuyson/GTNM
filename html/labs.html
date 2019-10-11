@@ -24,9 +24,9 @@
         <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
 
         <ul class="main-menu font-mountainsre" id="main-menu">
-            <li><a href="../index.html"class="font-16">HOME</a></li>
-            <li><a href="about.html"class="font-16">ABOUT</a></li>
-            <li><a rel="stylesheet" href="labs.html"class="font-16">LABS</a></li>
+            <li><a href="../index.html" class="font-16">HOME</a></li>
+            <li><a href="about.html" class="font-16">ABOUT</a></li>
+            <li><a rel="stylesheet" href="labs.html" class="font-16">LABS</a></li>
         </ul>
 
         <div class="clearfix"></div>
@@ -115,7 +115,7 @@
                             </div>
                             <hr>
                             <div class="del correct">
-                                <p > Edit Subject</p>
+                                <p> Edit Subject</p>
                                 <div class="del_child">
                                     <img src="../images/dedit.jpg" height="400" width="600"/>
                                     <a download="dedit.jpg" href="../images/dedit.jpg" title="Image Edit">
@@ -150,7 +150,7 @@
                                 <p>Add Subject</p>
                                 <div class="add_child">
                                     <img src="../images/add.PNG" height="545" width="765"/>
-                                    <a download="lab1_1.fig" href="../17130195_design/lab1_1.fig"
+                                    <a download="lab1_1.fig" href="../file/lab1_1.fig"
                                        title="Image Add">
                                         <i class="fas fa-file-download"></i>
                                     </a>
@@ -161,7 +161,7 @@
                                 <p>Edit Subject</p>
                                 <div class="edit_child">
                                     <img src="../images/edit.PNG" height="545" width="766"/>
-                                    <a download="lab1_2.fig" href="../17130195_design/lab1_2.fig"
+                                    <a download="lab1_2.fig" href="../file/lab1_2.fig"
                                        title="Image Edit">
                                         <i class="fas fa-file-download"></i>
                                     </a>
@@ -172,7 +172,7 @@
                                 <p>Delete Subject</p>
                                 <div class="add_child">
                                     <img src="../images/del.PNG" height="317" width="592"/>
-                                    <a download="lab1_3.fig" href="../17130195_design/lab1_3.fig"
+                                    <a download="lab1_3.fig" href="../file/lab1_3.fig"
                                        title=" Image Delete">
                                         <i class="fas fa-file-download"></i>
                                     </a>
@@ -183,13 +183,14 @@
                                 <p>Search Subject</p>
                                 <div class="sea_child">
                                     <img src="../images/sea.PNG" height="331" width="621"/>
-                                    <a download="lab1_4.fig" href="../17130195_design/lab1_4.fig" title="Image Search">
+                                    <a download="lab1_4.fig" href="../file/lab1_4.fig" title="Image Search">
                                         <i class="fas fa-file-download"></i>
                                     </a>
                                 </div>
                             </div>
                             <div class="dow">
-                                <button><a download="">Download</a> </button>
+                                <button class="bton"><a download="file/17130195_design.zip"
+                                                        href="file/17130195_design.zip">Download all</a></button>
                             </div>
                         </div>
                     </div>
@@ -320,7 +321,7 @@
             </div>
             <div id="menu1" class="container tab-pane fade">
                 <div class="contan">
-                    <ul class=" nav nav-tabs" role="tablist">
+                    <ul class=" nav nav-tabs font-14" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab"
                                href="#requirementweek2">Requirement</a>
@@ -343,13 +344,15 @@
                     <div class="tab-content">
                         <div id="requirementweek2" class="container tab-pane fade active show">
                             <div class="bound">
-                                <ul class="ulparent">
+                                <ul class="ulparent ">
                                     <li>(1) Tạo ra một user scenario.</li>
                                     <li>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
                                         Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
-                                        ứng cho thiết kế này.</li>
+                                        ứng cho thiết kế này.
+                                    </li>
                                     <li>Upload lên Azure / github: trong file html có chèn hình ảnh của
-                                        user scenario ở (1) và đường dẫn của file thiết kế ở (2).</li>
+                                        user scenario ở (1) và đường dẫn của file thiết kế ở (2).
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -361,8 +364,21 @@
 
                         <div id="designweek2" class="container tab-pane fade">
                             <div class="bound">
+                                <p class="font-13">1. Thiết kế trên giấy</p>
 
+                                <img src="../images/dangk.jpg" height="400" width="500"/>
+                                <a download="dangk.jpg" href="../images/dangk.jpg" title="Image Delete">
+                                    <i class="fas fa-file-download"></i>
+                                </a>
+                                <hr>
+                                <p class="font-13">2. Thiết kế trên figma</p>
+
+                                <img src="../images/regi.PNG" height="571" width="538"/>
+                                <a download="lab2.fig" href="../file/lab2.fig" title="Image Delete">
+                                    <i class="fas fa-file-download"></i>
+                                </a>
                             </div>
+
                         </div>
                         <div id="implementweek2" class="container tab-pane fade">
                             <div class="bound">
@@ -377,26 +393,29 @@
                                                 <div class="content_1">
                                                     <div class="form_child">
                                                         <div class="form_child_1">
-                                                            <input class="ip-1" type="text" placeholder="Số điện thoại" value="">
+                                                            <input class="ip-1" type="text" placeholder="Số điện thoại"
+                                                                   value="">
                                                             <button class="btun" disabled="">Gửi Mã xác minh</button>
                                                         </div>
                                                     </div>
-                                                    <div class="form_child"><input  type="text" placeholder="Mã xác minh"
-                                                                                    value="">
+                                                    <div class="form_child"><input type="text" placeholder="Mã xác minh"
+                                                                                   value="">
                                                     </div>
-                                                    <div class="form_child"><input  type="text" placeholder="Tên đăng nhập"
-                                                                                    value="">
+                                                    <div class="form_child"><input type="text"
+                                                                                   placeholder="Tên đăng nhập"
+                                                                                   value="">
                                                     </div>
-                                                    <div class="form_child"><input  type="password" placeholder="Mật khẩu"
-                                                                                    value="">
+                                                    <div class="form_child"><input type="password"
+                                                                                   placeholder="Mật khẩu"
+                                                                                   value="">
                                                     </div>
-                                                    <div class="form_child"><input  type="password"
-                                                                                    placeholder="Xác nhận mật khẩu"
-                                                                                    value=""></div>
+                                                    <div class="form_child"><input type="password"
+                                                                                   placeholder="Xác nhận mật khẩu"
+                                                                                   value=""></div>
                                                     <div class="form_child">
                                                         <div class="fm_1">
-                                                            <input  type="text" placeholder="Mã hiển thị ở bên phải"
-                                                                    value="">
+                                                            <input type="text" placeholder="Mã hiển thị ở bên phải"
+                                                                   value="">
                                                             <input class="cap" type="text" placeholder="Mã captcha">
                                                         </div>
                                                     </div>
