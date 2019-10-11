@@ -1,3 +1,4 @@
+
 .tab-content #requirement li {
     display: list-item;
 }
@@ -118,7 +119,21 @@ input[type=submit] {
 }
 .content_footer{
     font-size: 0.7em;
+    padding-top: 0.5em;
 }
 .container-fluid .f_size{
     font-size: 0.7em;
+}
+.profile{
+    width: 80%;
+}
+.content{
+    position: relative;
+}
+.se{
+    position: relative;
+    left: 10%;
+}
+footer{
+    background-color: #292929;
 }
