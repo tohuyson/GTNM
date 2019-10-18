@@ -257,7 +257,6 @@ header:after {
     bottom: -10px;
     left: 0;
     right: 0;
-    background: url(../images/triangle_bg_black.png) repeat-x;
     background-size: 26px 10px;
     opacity: .6;
 }

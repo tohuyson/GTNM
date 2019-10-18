@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labs 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/about.css">
+    <link rel="stylesheet" href="../plugin-frameworks/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugin-frameworks/swiper.css">
+    <link rel="stylesheet" href="../common/styles.css">
+    <link rel="stylesheet" href="../fonts/ionicons.css">
+    <link rel="stylesheet" href="../common/labs.css">
+    <link rel="stylesheet" href="../lib/lib/css/all.min.css">
+
+</head>
+<body>
+<header style="position: fixed;background-color: #666666">
+    <div class="container">
+        <a class="logo" href="#"><img src="../images/logo-white.png" alt="Logo"></a>
+
+        <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
+
+        <ul class="main-menu font-mountainsre" id="main-menu">
+            <li><a href="../index.html" class="font-16">HOME</a></li>
+            <li><a href="about.html" class="font-16">ABOUT</a></li>
+            <li><a rel="stylesheet" href="labs1.html" class="font-16">LABS 1</a></li>
+            <li><a rel="stylesheet" href="labs2.html" class="font-16">LABS 2</a></li>
+            <li><a rel="stylesheet" href="labs3.html" class="font-16">LABS 3</a></li>
+            <li><a rel="stylesheet" href="labs.html" class="font-16">LABS 4</a></li>
+        </ul>
+
+        <div class="clearfix"></div>
+    </div><!-- container -->
+</header>
+<section>
+    <div class="container">
+        <ul class=" nav nav-tabs brdr-b-primary font-13" role="tablist">
+            <li class="nav-item items">
+                <a class="nav-link active" data-toggle="tab"
+                   href="#requirement">Requirement</a>
+            </li>
+
+            <li class="nav-item items">
+                <a class="nav-link" data-toggle="tab" href="#design">Design</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link items" data-toggle="tab" href="#implement">Implement</a>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div id="requirement" class="container tab-pane fade active show">
+            <div class="bound">
+                <p class="font-13">1. Yêu cầu:</p>
+                <p> Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
+                    như sinh viên, môn học, giảng viên,… để thiết kế trên phần
+                    mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
+                    cho đối tượng đó.
+                </p>
+                <p class="font-13"> 2. Upload tất cả lên Azure / github trong menu Lab1 theo thứ
+                    tự:</p>
+                <ul class="ulparent">
+                    <li>Tab Yêu cầu: copy lại nội dung của phần 1 vào đây (trình bày
+                        cho đẹp)
+                    </li>
+                    <li>Tab Thiết kế: để link tới các file sau đây:
+                        <ul class="ulchild">
+                            <li>Thiết kế trên giấy (chụp lại ảnh)</li>
+                            <li>Thiết kế trên phần mềm thiết kế</li>
+                        </ul>
+                    </li>
+                    <li>Tab Hiện thực: chuyển tất cả thiết kế ở trên ở trên sang html</li>
+                </ul>
+            </div>
+        </div>
+        <div id="design" class="container tab-pane fade">
+            <div class="design_giay">
+                <p class="font-13"> 1.Design paper</p>
+                <div class="content-design-1">
+                    <div class="add correct">
+                        <p>Add Subject</p>
+                        <div class="add_child">
+                            <div class="image-design">
+                                <img src="../images/labs1/add.jpg" height="330px"/>
+                            </div>
+                            <div class="icon-add">
+                                <a download="add.jpg" href="../images/labs1/add.jpg" title="Download Image Add">
+                                    <i class="fas fa-file-download"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add correct">
+                        <p> Edit Subject</p>
+                        <div class="del_child">
+                            <div class="image-design">
+                                <img src="../images/labs1/edit.jpg" height="330px"/>
+                            </div>
+                            <div class="icon-edit">
+                                <a download="edit.jpg" href="../images/labs1/edit.jpg" title="Download Image Edit">
+                                    <i class="fas fa-file-download"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="sea-del correct">
+                    <p>Search and Delete</p>
+                    <div class="del_child">
+                        <div class="image-design">
+                            <img src="../images/labs1/del-sea.jpg" height="330px"/>
+                        </div>
+                        <div class="icon-sea-del">
+                            <a download="del-sea.jpg" href="../images/labs1/del-sea.jpg" title="Download Image">
+                                <i class="fas fa-file-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="disign_figma">
+                <p class="font-13">2.Design figma</p>
+                <div class="content-design-1">
+                    <div class="add correct">
+                        <p>Add Subject</p>
+                        <div class="add_child">
+                            <img src="../images/labs1/f-add.PNG"/>
+                            <a download="add.fig" href="../file/labs1/lab1-1.fig"
+                               title="Download Image Add">
+                                <i class="fas fa-file-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="add correct">
+                        <p>Edit Subject</p>
+                        <div class="edit_child">
+                            <img src="../images/labs1/f-edit.PNG"/>
+                            <a download="edit.fig" href="../file/labs1/lab1-2.fig"
+                               title="Download Image Edit">
+                                <i class="fas fa-file-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="sea-del correct">
+                    <p>Delete Subject</p>
+                    <div class="sea-child">
+                        <img src="../images/labs1/f-sea-del.PNG"/>
+                        <a download="sea-del.fig" href="../file/labs1/labs1-3.fig"
+                           title="Download Image">
+                            <i class="fas fa-file-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="dow">
+                    <button class="bton"><a download="17130195_design.zip"
+                                            href="../file/labs1/1713095_design_labs1.zip" title="Downlaod All Figma">Download All</a></button>
+                </div>
+            </div>
+        </div>
+        <div id="implement" class="container tab-pane fade">
+            <div class="design_cotent">
+                <div class="container-contact100 with_form">
+                    <div class="wrap-contact100 ">
+                        <form class="contact100-form validate-form">
+                            <div class="content-form">
+                                <div class="subject">SUBJECT</div>
+                                <div class="wrap input">
+                                    <label class="input100 id">ID:</label>
+                                    <input class="input100" type="text" name="name" placeholder="Enter Id"
+                                           title="Mã môn học"
+                                           required>
+                                </div>
+
+                                <div class="wrap input ">
+                                    <label class="input100 name">NAME:</label>
+                                    <input class="input100" type="text" name="email" placeholder="Enter Name"
+                                           title="Tên Môn học"
+                                           required>
+                                </div>
+
+                                <div class="wrap input">
+                                    <label class="input100 credit">CREDITS:</label>
+                                    <input class="input100" type="text" name="credit" placeholder="Enter Credit"
+                                           title="Tín chi"
+                                           required>
+                                </div>
+                                <div class="wrap input">
+                                    <label class="input100 teacher">TEACHER:</label>
+                                    <input class="input100" type="text" name="tearch"
+                                           placeholder="Enter Teacher" title="Giáo viên giảng dạy" required>
+                                </div>
+                                <div class="wrap input">
+                                    <label class="input100 classroom">CLASSROOM:</label>
+                                    <input class="input100" type="text" name="class"
+                                           placeholder="Enter ClassRoom" title="Phòng học" required>
+                                </div>
+                                <div class="wrap input">
+                                    <label class="input100 number">NUMBER:</label>
+                                    <input class="input100" type="text" name="number"
+                                           placeholder="Enter Number" title="Số lượng" required>
+                                </div>
+
+
+                                <div class="form-btn">
+                                    <input class="bt-add" type="submit" name="Add" value="ADD">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="container-contact100 with_form">
+                    <div class="wrap-contact100 ">
+                        <form class="contact100-form validate-form">
+                            <div class="content-form">
+                                <div class="subject">SUBJECT</div>
+                                <div class="wrap input">
+                                    <label class="input100 id">ID:</label>
+                                    <input class="input100" type="text" name="name" value="214361"
+                                           title="Mã môn học">
+                                </div>
+
+                                <div class="wrap input ">
+                                    <label class="input100 name">NAME:</label>
+                                    <input class="input100" type="text" name="email"
+                                           value="Giao tiếp người máy" title="Tên môn học">
+                                </div>
+
+                                <div class="wrap input">
+                                    <label class="input100 credit">CREDITS:</label>
+                                    <input class="input100" type="text" name="credit" value="4" title="tín chỉ">
+                                </div>
+                                <div class="wrap input">
+                                    <label class="input100 teacher">TEACHER:</label>
+                                    <input class="input100" type="text" name="teacher"
+                                           value="Trần Thị Thanh Nga" title="Giáo viên giảng dạy">
+                                </div>
+                                <div class="wrap input">
+                                    <label class="input100 classroom">CLASSROOM:</label>
+                                    <input class="input100" type="text" name="classroom"
+                                           value="RD203" title=" phòng học">
+                                </div>
+                                <div class="wrap input">
+                                    <label class="input100 number">NUMBER:</label>
+                                    <input class="input100" type="text" name="number"
+                                           value="100" title="Số lượng">
+                                </div>
+
+                                <div class="form-btn">
+                                    <input class="bt-add" type="submit" name="Add" value="EDIT">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container contact">
+                <div class="menu">
+                    <h3 class="header">Suject</h3>
+                    <div class="design-search">
+                        <input class="search" name="search" type="text" placeholder="Search...">
+                        <button type="button" class="btn btn-edit" data-toggle="modal"
+                                data-target="#myModalEdit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <table class="table" id="book-table">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Credits</th>
+                        <th>Tearch</th>
+                        <th>Classroom</th>
+                        <th>Number</th>
+                    </tr>
+                    <tbody>
+                    <tr>
+                        <td>214361</td>
+                        <td>Giao tiếp người máy</td>
+                        <td>3</td>
+                        <td>Trần T.T Nga</td>
+                        <td>RD203</td>
+                        <td>100</td>
+                    </tr>
+                    <tr class="even">
+                        <td>214252</td>
+                        <td>Lập trình mạng</td>
+                        <td>4</td>
+                        <td>Phạm Văn tinh</td>
+                        <td>HD103</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>214461</td>
+                        <td>Phân tích và thiết kế HTTT</td>
+                        <td>4</td>
+                        <td>Trần Lê Như Quỳnh</td>
+                        <td>TV101</td>
+                        <td>100</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="bt">
+                    <div class="btl">
+                        <button class="bt-dete" name="submit" type="submit" id="contact-submit16"
+                                data-submit="...Sending">Delete
+                        </button>
+                    </div>
+                    <div class="btr">
+                        <button class="bt-dete-all" name="submit" type="submit" id="contact-submit15"
+                                data-submit="...Sending">Delete All
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="../plugin-frameworks/jquery-3.2.1.min.js"></script>
+<script src="../plugin-frameworks/bootstrap.min.js"></script>
+<script src="../plugin-frameworks/swiper.js"></script>
+<script src="../common/scripts.js"></script>
+</body>
+</html>
