@@ -1,4 +1,6 @@
-
+.container-ex2{
+    width: 80%;
+}
 .ex2{
     display: flex;
     justify-content: center;
@@ -7,6 +9,7 @@
     display: flex;
     flex-direction: row;
     background-color: #cccccc;
+    justify-content: space-between;
 }
 .li-bor{
     border: 1px solid;
@@ -14,7 +17,7 @@
     background-color: #3981a2;
 }
 .img-head-2{
-    width: 6%;
+    width: 10%;
 }
 .ul-ex2{
     /*display: flex;*/
