@@ -1,0 +1,39 @@
+
+.ex2{
+    display: flex;
+    justify-content: center;
+}
+.head-ex2{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccccc;
+}
+.li-bor{
+    border: 1px solid;
+    padding: 0.4em;
+    background-color: #3981a2;
+}
+.img-head-2{
+    width: 6%;
+}
+.ul-ex2{
+    /*display: flex;*/
+    align-items: center;
+}
+.li-ex2{
+    padding-right: 1.5em;
+}
+.content-ex2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+}
+.content-left{
+    width: 50%;
+}
+.content-right{
+    width: 50%;
+}
+.menu-2{
+    /*padding-left: 44%;*/
+}
