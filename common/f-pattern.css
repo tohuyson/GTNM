@@ -23,6 +23,7 @@
 .head-ex1 {
     flex-direction: row;
     display: flex;
+    background: #b0e4e4;
 }
 
 .ul-ex1 {

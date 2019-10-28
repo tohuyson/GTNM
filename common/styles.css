@@ -1,34 +1,3 @@
-/*
-====================================================
-
-* 	[Master Stylesheet]
-
-	Theme Name :
-	Version    :
-	Author     :
-	Author URI :
-
-====================================================
-
-	TOC
-
-	1. PRIMARY STYLES
-	2. COMMONS FOR PAGE DESIGN
-	3. HEADER
-	4. INTRO SECTION
-	5. PORFOLIO SECTION
-	6. ABOUT SECTION
-	7. EXPERIENCE SECTION
-	8. EDUCATION SECTION
-	9. COUNTER SECTION
-	10. FOOTER
-
-====================================================
-
-
-/* ---------------------------------
-1. PRIMARY STYLES
---------------------------------- */
 
 html {
     font-size: 100%;
@@ -163,17 +132,17 @@ textarea:focus {
 
 ::placeholder {
     color: #aaa;
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 :-ms-input-placeholder {
     color: #aaa;
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 :-ms-input-placeholder {
     color: #aaa;
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 .card {
@@ -566,7 +535,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
     top: 0px;
     left: 0;
     right: 0;
-    background: url(../images/triangle_bg.png) repeat-x;
+    /*background: url(../images/triangle_bg.png) repeat-x;*/
     background-size: 26px 10px;
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
@@ -579,7 +548,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
     bottom: 0px;
     left: 0;
     right: 0;
-    background: url(../images/triangle_bg.png) repeat-x;
+    /*background: url(../images/triangle_bg.png) repeat-x;*/
     background-size: 26px 10px;
 }
 
@@ -692,7 +661,7 @@ section {
     display: block;
     height: 80px;
     width: 80px;
-    background: url(../images/icons.png) no-repeat;
+    /*background: url(../images/icons.png) no-repeat;*/
     background-size: cover;
     background-position: 0;
 }
@@ -718,7 +687,7 @@ section {
     display: block;
     height: 50px;
     width: 50px;
-    background: url(../images/icon-boxes.png) no-repeat;
+    /*background: url(../images/icon-boxes.png) no-repeat;*/
     background-size: cover;
     background-position: 0;
 }
@@ -1267,7 +1236,7 @@ section {
 /* BACKGROUND COLOR*/
 
 .bg-seller {
-    background: url(../images/sellers-1-1600x1600.jpg) no-repeat;
+    /*background: url(../images/sellers-1-1600x1600.jpg) no-repeat;*/
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -1488,42 +1457,42 @@ section {
 
 
 .bg-1 {
-    background: url(../images/slider_1_1920_1200.jpg) no-repeat center;
+    /*background: url(../images/slider_1_1920_1200.jpg) no-repeat center;*/
     background-size: cover;
 }
 
 .bg-2 {
-    background: url(../images/story_bg_1.png) no-repeat center;
+    /*background: url(../images/story_bg_1.png) no-repeat center;*/
     background-size: 100%;
 }
 
 .bg-3 {
-    background: url(../images/story_bg_2.png) no-repeat center;
+    /*background: url(../images/story_bg_2.png) no-repeat center;*/
     background-size: 100%;
 }
 
 .bg-4 {
-    background: url(../images/slider_2_1920_600.jpg) no-repeat center;
+    /*background: url(../images/slider_2_1920_600.jpg) no-repeat center;*/
     background-size: cover;
 }
 
 .bg-5 {
-    background: url(../images/slider_3_1920_600.jpg) no-repeat center;
+    /*background: url(../images/slider_3_1920_600.jpg) no-repeat center;*/
     background-size: cover;
 }
 
 .bg-6 {
-    background: url(../images/slider_4_1920_600.jpg) no-repeat center;
+    /*background: url(../images/slider_4_1920_600.jpg) no-repeat center;*/
     background-size: cover;
 }
 
 .bg-7 {
-    background: url(../images/slider_5_1920_600.jpg) no-repeat center;
+    /*background: url(../images/slider_5_1920_600.jpg) no-repeat center;*/
     background-size: cover;
 }
 
 .bg-8 {
-    background: url(../images/slider_6_1920_600.jpg) no-repeat center;
+    /*background: url(../images/slider_6_1920_600.jpg) no-repeat center;*/
     background-size: cover;
 }
 
@@ -1921,25 +1890,25 @@ section {
 }
 
 .placeholder-1 ::-webkit-input-placeholder {
-    font-style: italic;
+    /*font-style: italic;*/
     color: #aaa;
     font-size: .9em;
 }
 
 .placeholder-1 ::-moz-placeholder {
-    font-style: italic;
+    /*font-style: italic;*/
     color: #aaa;
     font-size: .9em;
 }
 
 .placeholder-1 :-ms-input-placeholder {
-    font-style: italic;
+    /*font-style: italic;*/
     color: #aaa;
     font-size: .9em;
 }
 
 .placeholder-1 :-moz-placeholder {
-    font-style: italic;
+    /*font-style: italic;*/
     color: #aaa;
     font-size: .9em;
 }
@@ -1947,7 +1916,7 @@ section {
 
 .form-bold input,
 .form-bold textarea {
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 .form-plr-15 input,
@@ -2618,7 +2587,7 @@ footer {
 }
 
 .footer-bg-1 {
-    background-image: url("../images/footer-1.png");
+    /*background-image: url("../images/footer-1.png");*/
 }
 
 .footer-bg-1:after {

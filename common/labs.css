@@ -63,22 +63,22 @@ input[type=text] {
 
 .credit {
     margin-left: -2.2em;
-    margin-right: 3.25em;
+    margin-right: 3.85em;
 }
 
 .teacher {
-    margin-left: -2em;
-    margin-right: 3em;
+    margin-left: -2.1em;
+    margin-right: 3.4em;
 }
 
 .number {
     margin-left: -1.8em;
-    margin-right: 3.1em;
+    margin-right: 3.3em;
 }
 
 .classroom {
-    margin-left: -2em;
-    margin-right: 1.4em;
+    margin-left: -2.3em;
+    margin-right: 2.5em;
 }
 
 .subject {
@@ -103,143 +103,193 @@ input[type=submit] {
     justify-content: center;
 }
 
+.form-btn .bt-add {
+    margin-right: 2em;
+}
+
 .content-form {
     border: 2px solid #6c757d;
     width: 90%;
 }
+
 .tab-content #requirementweek2 li {
     display: list-item;
 }
-.pro{
+
+.pro {
     margin-left: 4em;
     font-size: 1.5em;
 }
-.row{
+
+.row {
     margin-top: 4em;
 }
-.content_footer{
+
+.content_footer {
     font-size: 0.7em;
     padding-top: 0.5em;
 }
-.container-fluid .f_size{
+
+.container-fluid .f_size {
     font-size: 0.7em;
 }
-.profile{
+
+.profile {
     width: 80%;
 }
-.content{
+
+.content {
     position: relative;
 }
-.se{
+
+.se {
     position: relative;
     left: 10%;
 }
-footer{
+
+footer {
     background-color: #292929;
 }
-.heading{
+
+.heading {
     margin-top: 0;
     margin-bottom: 0;
 }
-.bton{
+
+.bton {
     border: 1px solid;
     padding: 10px;
     background: #e89f19;
 }
-.dow{
+
+.dow {
     display: flex;
     justify-content: center;
 }
-.content-form, .bound,.design_giay{
+
+.content-form, .bound, .design_giay {
     margin-top: 3em;
 }
-.add{
+
+.add {
     width: 50%;
 }
-.content-design-1{
+
+.content-design-1 {
     display: flex;
 }
-.add_child,.del_child{
+
+.add_child, .del_child {
     position: relative;
 }
-.icon-add,.icon-edit{
+
+.icon-add, .icon-edit {
     position: absolute;
     top: 50%;
     left: 85%;
 }
-.design_cotent{
-display: flex;
+
+.design_cotent {
+    display: flex;
     justify-content: space-between;
 }
-.with_form{
+
+.with_form {
     width: 48%;
 }
-.search{
-    width: 10% !important;
+
+.search {
+    width: 30% !important;
 }
-.design-search{
+
+.design-search {
     display: flex;
     justify-content: flex-end;
 }
-.bt{
+
+.bt {
     display: flex;
     justify-content: flex-end;
 }
-.bt-dete{
+
+.bt-dete {
     margin-right: 2em;
     padding: 0.5em;
     border: 1px solid;
     border-radius: 7px;
     background-color: #3da730
 }
-.bt-dete-all{
+
+.bt-dete-all {
     padding: 0.5em;
     border: 1px solid;
     border-radius: 7px;
     background-color: #3da730
 }
-.menu .header{
+
+.menu .header {
     display: flex;
     justify-content: center;
 }
-.contact{
+
+.contact {
     width: 90%;
     border: 2px solid;
     padding: 1.5em;
 }
-.del_child{
+
+.del_child {
     position: relative;
 }
-.icon-sea-del{
+
+.icon-sea-del {
     position: absolute;
     top: 50%;
     left: 85%;
 }
-.design-giay-2{
+
+.design-giay-2 {
     width: 45%;
 }
-.content-2{
+
+.content-2 {
     display: flex;
     justify-content: center;
     position: relative;
 }
-.icon-dk{
+
+.icon-dk {
     position: absolute;
     top: 50%;
     left: 68%;
 }
-.content-figma{
+
+.content-figma {
     display: flex;
     justify-content: center;
     position: relative;
 }
-.icon-fgm-dk{
+
+.icon-fgm-dk {
     position: absolute;
     top: 50%;
     left: 67%;
 }
-.icon-fgm-dk-2{
+
+.icon-fgm-dk-2 {
     position: absolute;
     top: 50%;
     left: 74%;
 }
+
+.dowload {
+    border: 1px solid;
+    background: #fb9905;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.img-head {
+    margin-left: 3em;
+}
+

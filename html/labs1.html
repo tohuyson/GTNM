@@ -23,10 +23,10 @@
 
         <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
 
-        <ul class="main-menu font-mountainsre active show" id="main-menu">
-            <li><a href="../index.html" class="font-14 active">HOME</a></li>
+        <ul class="main-menu font-mountainsre " id="main-menu">
+            <li><a href="../index.html" class="font-14">HOME</a></li>
             <li><a href="about.html" class="font-14">ABOUT</a></li>
-            <li><a rel="stylesheet" href="labs1.html" class="font-14">LABS 1</a></li>
+            <li class="brdr-b-primary"><a rel="stylesheet" href="labs1.html" class="font-14">LABS 1</a></li>
             <li><a rel="stylesheet" href="labs2.html" class="font-14">LABS 2</a></li>
             <li><a rel="stylesheet" href="labs3.html" class="font-14">LABS 3</a></li>
             <li><a rel="stylesheet" href="labs.html" class="font-14">LABS 4</a></li>
@@ -88,7 +88,7 @@
                                 <img src="../images/labs1/add.jpg" height="330px"/>
                             </div>
                             <div class="icon-add">
-                                <a download="add.jpg" href="../images/labs1/add.jpg" title="Download Image Add">
+                                <a class="dowload" download="add.jpg" href="../images/labs1/add.jpg" title="Download Image Add">
                                     <i class="fas fa-file-download"></i>
                                 </a>
                             </div>
@@ -101,7 +101,7 @@
                                 <img src="../images/labs1/edit.jpg" height="330px"/>
                             </div>
                             <div class="icon-edit">
-                                <a download="edit.jpg" href="../images/labs1/edit.jpg" title="Download Image Edit">
+                                <a class="dowload" download="edit.jpg" href="../images/labs1/edit.jpg" title="Download Image Edit">
                                     <i class="fas fa-file-download"></i>
                                 </a>
                             </div>
@@ -116,7 +116,7 @@
                             <img src="../images/labs1/del-sea.jpg" height="330px"/>
                         </div>
                         <div class="icon-sea-del">
-                            <a download="del-sea.jpg" href="../images/labs1/del-sea.jpg" title="Download Image">
+                            <a class="dowload" download="del-sea.jpg" href="../images/labs1/del-sea.jpg" title="Download Image">
                                 <i class="fas fa-file-download"></i>
                             </a>
                         </div>
@@ -130,7 +130,7 @@
                         <p>Add Subject</p>
                         <div class="add_child">
                             <img src="../images/labs1/f-add.PNG"/>
-                            <a download="add.fig" href="../file/labs1/lab1-1.fig"
+                            <a class="dowload" download="add.fig" href="../file/labs1/lab1-1.fig"
                                title="Download Image Add">
                                 <i class="fas fa-file-download"></i>
                             </a>
@@ -140,7 +140,7 @@
                         <p>Edit Subject</p>
                         <div class="edit_child">
                             <img src="../images/labs1/f-edit.PNG"/>
-                            <a download="edit.fig" href="../file/labs1/lab1-2.fig"
+                            <a class="dowload" download="edit.fig" href="../file/labs1/lab1-2.fig"
                                title="Download Image Edit">
                                 <i class="fas fa-file-download"></i>
                             </a>
@@ -152,7 +152,7 @@
                     <p>Delete Subject</p>
                     <div class="sea-child">
                         <img src="../images/labs1/f-sea-del.PNG"/>
-                        <a download="sea-del.fig" href="../file/labs1/labs1-3.fig"
+                        <a class="dowload" download="sea-del.fig" href="../file/labs1/labs1-3.fig"
                            title="Download Image">
                             <i class="fas fa-file-download"></i>
                         </a>
@@ -161,165 +161,191 @@
                 <hr>
                 <div class="dow">
                     <button class="bton"><a download="17130195_design.zip"
-                                            href="../file/labs1/1713095_design_labs1.zip" title="Downlaod All Figma">Download All</a></button>
+                                            href="../file/labs1/1713095_design_labs1.zip" title="Downlaod All Figma">Download
+                        All</a></button>
                 </div>
             </div>
         </div>
         <div id="implement" class="container tab-pane fade">
-            <div class="design_cotent">
-                <div class="container-contact100 with_form">
-                    <div class="wrap-contact100 ">
-                        <form class="contact100-form validate-form">
+            <div class="bound">
+                <div class="design_cotent">
+                    <div class="with_form">
+                        <form class="contact-form">
                             <div class="content-form">
-                                <div class="subject">SUBJECT</div>
-                                <div class="wrap input">
-                                    <label class="input100 id">Id:</label>
-                                    <input class="input100" type="text" name="name" placeholder="Enter Id"
-                                           title="Mã môn học"
+                                <div class="subject">ADD SUBJECT</div>
+                                <div class="input">
+                                    <label class="id">Id:</label>
+                                    <input type="text" name="name" placeholder="Enter Id" title="Mã môn học" required>
+                                </div>
+
+                                <div class="input ">
+                                    <label class=" name">Name:</label>
+                                    <input type="text" name="email" placeholder="Enter Name" title="Tên Môn học"
                                            required>
                                 </div>
 
-                                <div class="wrap input ">
-                                    <label class="input100 name">Name:</label>
-                                    <input class="input100" type="text" name="email" placeholder="Enter Name"
-                                           title="Tên Môn học"
+                                <div class="input">
+                                    <label class="credit">Credits:</label>
+                                    <input type="text" name="credit" placeholder="Enter Credit" title="Tín chi"
                                            required>
                                 </div>
-
-                                <div class="wrap input">
-                                    <label class="input100 credit">Credits:</label>
-                                    <input class="input100" type="text" name="credit" placeholder="Enter Credit"
-                                           title="Tín chi"
+                                <div class="input">
+                                    <label class="teacher">Lecturer:</label>
+                                    <input type="text" name="tearch" placeholder="Enter Lecturer"
+                                           title="Giáo viên giảng dạy" required>
+                                </div>
+                                <div class="input">
+                                    <label class=" classroom">Classroom:</label>
+                                    <input type="text" name="class" placeholder="Enter ClassRoom" title="Phòng học"
                                            required>
                                 </div>
-                                <div class="wrap input">
-                                    <label class="input100 teacher">Teacher:</label>
-                                    <input class="input100" type="text" name="tearch"
-                                           placeholder="Enter Teacher" title="Giáo viên giảng dạy" required>
+                                <div class="input">
+                                    <label class="number">Number:</label>
+                                    <input type="text" name="number" placeholder="Enter Number" title="Số lượng"
+                                           required>
                                 </div>
-                                <div class="wrap input">
-                                    <label class="input100 classroom">Classroom:</label>
-                                    <input class="input100" type="text" name="class"
-                                           placeholder="Enter ClassRoom" title="Phòng học" required>
-                                </div>
-                                <div class="wrap input">
-                                    <label class="input100 number">Number:</label>
-                                    <input class="input100" type="text" name="number"
-                                           placeholder="Enter Number" title="Số lượng" required>
-                                </div>
-
-
                                 <div class="form-btn">
-                                    <input class="bt-add" type="submit" name="Add" value="ADD">
+                                    <input class="bt-add" type="submit" name="save" value="SAVE">
+                                    <input class="bt-add" type="submit" name="cancel" value="CANCEL">
                                 </div>
                             </div>
                         </form>
                     </div>
-                </div>
-                <div class="container-contact100 with_form">
-                    <div class="wrap-contact100 ">
-                        <form class="contact100-form validate-form">
-                            <div class="content-form">
-                                <div class="subject">SUBJECT</div>
-                                <div class="wrap input">
-                                    <label class="input100 id">Id:</label>
-                                    <input class="input100" type="text" name="name" value="214361"
-                                           title="Mã môn học">
-                                </div>
+                    <div class="container-contact100 with_form">
+                        <div class="wrap-contact100 ">
+                            <form class="contact100-form validate-form">
+                                <div class="content-form">
+                                    <div class="subject">EDIT SUBJECT</div>
+                                    <div class="wrap input">
+                                        <label class="input100 id">Id:</label>
+                                        <input class="input100" type="text" name="name" value="214361"
+                                               title="Mã môn học">
+                                    </div>
 
-                                <div class="wrap input ">
-                                    <label class="input100 name">Name:</label>
-                                    <input class="input100" type="text" name="email"
-                                           value="Giao tiếp người máy" title="Tên môn học">
-                                </div>
+                                    <div class="wrap input ">
+                                        <label class="input100 name">Name:</label>
+                                        <input class="input100" type="text" name="email"
+                                               value="Giao tiếp người máy" title="Tên môn học">
+                                    </div>
 
-                                <div class="wrap input">
-                                    <label class="input100 credit">Credits:</label>
-                                    <input class="input100" type="text" name="credit" value="4" title="tín chỉ">
-                                </div>
-                                <div class="wrap input">
-                                    <label class="input100 teacher">Teacher:</label>
-                                    <input class="input100" type="text" name="teacher"
-                                           value="Trần Thị Thanh Nga" title="Giáo viên giảng dạy">
-                                </div>
-                                <div class="wrap input">
-                                    <label class="input100 classroom">Classroom:</label>
-                                    <input class="input100" type="text" name="classroom"
-                                           value="RD203" title=" phòng học">
-                                </div>
-                                <div class="wrap input">
-                                    <label class="input100 number">Number:</label>
-                                    <input class="input100" type="text" name="number"
-                                           value="100" title="Số lượng">
-                                </div>
+                                    <div class="wrap input">
+                                        <label class="input100 credit">Credits:</label>
+                                        <input class="input100" type="text" name="credit" value="4" title="tín chỉ">
+                                    </div>
+                                    <div class="wrap input">
+                                        <label class="input100 teacher">Lecturer:</label>
+                                        <input class="input100" type="text" name="teacher"
+                                               value="Trần Thị Thanh Nga" title="Giáo viên giảng dạy">
+                                    </div>
+                                    <div class="wrap input">
+                                        <label class="input100 classroom">Classroom:</label>
+                                        <input class="input100" type="text" name="classroom"
+                                               value="RD203" title=" phòng học">
+                                    </div>
+                                    <div class="wrap input">
+                                        <label class="input100 number">Number:</label>
+                                        <input class="input100" type="text" name="number"
+                                               value="100" title="Số lượng">
+                                    </div>
 
-                                <div class="form-btn">
-                                    <input class="bt-add" type="submit" name="Add" value="EDIT">
+                                    <div class="form-btn">
+                                        <input class="bt-add" type="submit" name="save" value="SAVE">
+                                        <input class="bt-add" type="submit" name="cancel" value="CANCEL">
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <hr>
-            <div class="container contact">
-                <div class="menu">
-                    <h3 class="header">SUBJECT</h3>
-                    <div class="design-search">
-                        <input class="search" name="search" type="text" placeholder="Search...">
-                        <button type="button" class="btn btn-edit" data-toggle="modal"
-                                data-target="#myModalEdit">
-                            <i class="fas fa-search"></i>
-                        </button>
+
+                <hr>
+                <div class="container contact">
+                    <div class="menu">
+                        <h3 class="header">SUBJECT</h3>
+                        <div class="design-search">
+                            <input class="search" name="search" type="text" placeholder="Search...">
+                            <button type="button" class="btn btn-edit" data-toggle="modal"
+                                    data-target="#myModalEdit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
                     </div>
-                </div>
-                <table class="table" id="book-table">
-                    <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Credits</th>
-                        <th>Tearch</th>
-                        <th>Classroom</th>
-                        <th>Number</th>
-                    </tr>
-                    <tbody>
-                    <tr>
-                        <td>214361</td>
-                        <td>Giao tiếp người máy</td>
-                        <td>3</td>
-                        <td>Trần T.T Nga</td>
-                        <td>RD203</td>
-                        <td>100</td>
-                    </tr>
-                    <tr class="even">
-                        <td>214252</td>
-                        <td>Lập trình mạng</td>
-                        <td>4</td>
-                        <td>Phạm Văn tinh</td>
-                        <td>HD103</td>
-                        <td>110</td>
-                    </tr>
-                    <tr>
-                        <td>214461</td>
-                        <td>Phân tích và thiết kế HTTT</td>
-                        <td>4</td>
-                        <td>Trần Lê Như Quỳnh</td>
-                        <td>TV101</td>
-                        <td>100</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <div class="bt">
-                    <div class="btl">
-                        <button class="bt-dete" name="submit" type="submit" id="contact-submit16"
-                                data-submit="...Sending">Delete
-                        </button>
-                    </div>
-                    <div class="btr">
-                        <button class="bt-dete-all" name="submit" type="submit" id="contact-submit15"
-                                data-submit="...Sending">Delete All
-                        </button>
+                    <table class="table" id="book-table">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Credits</th>
+                            <th>Lecturer</th>
+                            <th>Classroom</th>
+                            <th>Number</th>
+                        </tr>
+                        <tbody>
+                        <tr>
+                            <td>214361</td>
+                            <td>Giao tiếp người máy</td>
+                            <td>3</td>
+                            <td>Trần T.T Nga</td>
+                            <td>RD203</td>
+                            <td>100</td>
+                            <td>
+                                <button type="button" class="btn btn-edit" data-toggle="modal"
+                                        data-target="#myModalEdit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-delete">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="even">
+                            <td>214252</td>
+                            <td>Lập trình mạng</td>
+                            <td>4</td>
+                            <td>Phạm Văn tinh</td>
+                            <td>HD103</td>
+                            <td>110</td>
+                            <td>
+                                <button type="button" class="btn btn-edit" data-toggle="modal"
+                                        data-target="#myModalEdit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-delete">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>214461</td>
+                            <td>Phân tích và thiết kế HTTT</td>
+                            <td>4</td>
+                            <td>Trần Lê Như Quỳnh</td>
+                            <td>TV101</td>
+                            <td>100</td>
+                            <td>
+                                <button type="button" class="btn btn-edit" data-toggle="modal"
+                                        data-target="#myModalEdit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-delete">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="bt">
+                        <div class="btr">
+                            <button class="bt-dete-all" name="submit" type="submit" id="contact-submit15"
+                                    data-submit="...Sending">Delete All
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
