@@ -1,0 +1,141 @@
+.container-lab4 {
+    width: 100%;
+}
+
+.menu-lab4 ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-lab4 ul li a:hover {
+    background-color: #fff;
+    color: #47afaf;
+}
+
+.header-lab4 {
+    background: #3bb5b5;
+    display: flex;
+    justify-content: center;
+}
+
+.li-4 {
+    padding: 1em;
+}
+
+.background-footer {
+    background-color: #151515;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.columnContact input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+.columnContact {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.border-product {
+    background: #fff;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.img-product {
+    width: 190.16px;
+    height: 190.16px;
+    margin-top: 0px;
+}
+
+.price-product {
+    width: 100%;
+    height: 29px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 5px;
+    float: left;
+}
+
+.name-product {
+    width: 250px;
+    height: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    float: left;
+}
+
+btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.border-product:HOVER {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border-product a:hover {
+    color: #5764cd !important;
+    text-decoration: underline;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #e6bb5b;
+    border-color: #adadad;
+}
+
+.img-lab4 {
+    display: flex;
+    justify-content: center;
+}
+
+.mg {
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
