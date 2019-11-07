@@ -293,3 +293,13 @@ footer {
     margin-left: 3em;
 }
 
+.bag {
+    background: #000000c2;
+    padding: 0.5em;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
