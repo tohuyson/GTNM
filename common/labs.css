@@ -135,7 +135,7 @@ input[type=submit] {
 }
 
 .profile {
-    width: 80%;
+    width: 98.3%;
 }
 
 .content {
@@ -294,8 +294,9 @@ footer {
 }
 
 .bag {
-    background: #000000c2;
+    background: #292929;
     padding: 0.5em;
+    width: 100%;
 }
 
 .socials {
