@@ -131,7 +131,7 @@ input[type=submit] {
 }
 
 .container-fluid .f_size {
-    font-size: 0.7em;
+    font-size: 13px !important;
 }
 
 .profile {
@@ -303,4 +303,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
-
+.fo-13{
+    font-size: 13px !important;
+}
+.fon-14{
+    font-size: 14px !important;
+}
