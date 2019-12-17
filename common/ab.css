@@ -1,0 +1,14 @@
+.bor{
+    border-radius: 50%;
+}
+.siz{
+    width:50%;
+    height: auto;
+}
+.bt-dl{
+    border: 1px solid #ff8545;
+    padding: 1em;
+    border-radius: 5px;
+    background: #ff8545;
+    color: white;
+}
