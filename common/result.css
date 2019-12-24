@@ -1,0 +1,26 @@
+.table-center {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.res {
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+.color-head {
+    background: #bbbbbb;
+}
+
+.nv {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+
+.ml-160 {
+    margin-left: 160px !important;
+}
